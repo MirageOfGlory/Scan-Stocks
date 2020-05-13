@@ -3,5 +3,45 @@
     <head>
         <title>My Webpage!</title>
     </head>
-    <body>Hello, Friends!</body>
+    <style>
+        div {
+            /*background-color: cyan;*/
+            color: black;
+            width:100%;
+            height:10%;
+        }
+        
+        th,td {
+            border: 2px solid black;
+            border-collapse:collapse;
+        }
+
+        #greeting {
+            color:blue;
+        }
+        .secondGreeting {
+            color:yellow;
+        }
+    </style>
+    <body>
+        <div id="greeting">
+            <p style="color:darkgray">Hello, Friends!</p>
+            <p><span class="secondGreeting">If you know what this means, then you're alive.</span></p>
+        </div>
+        <div id="greeting">
+            <table>
+                <tr>
+                    <th>One</th>
+                    <th>Two</th>
+                    <th>Three</th>    
+                </tr>
+                <tr>
+                    <td>Me</td>
+                    <td>Me</td>
+                    <td>Me</td>    
+                </tr>
+            </table>
+        </div>
+        
+    </body>  
 </html>
